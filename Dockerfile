@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM maven:3.9.9-amazoncorretto-8-al2023 AS build
+FROM maven:3.9.9-amazoncorretto-21-al2023 AS build
 WORKDIR /app
 COPY src ./src
 COPY pom.xml .
